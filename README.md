@@ -45,7 +45,7 @@ Use Copilot to get a basic tutorial or how to play the game or what start lookin
 ### Achievements 🎖️
 
 Get achievements by running certain commands, using certain apps, or googling certain things.
-#### Currently 11 Achievements
+#### Currently 12 Achievements
 
 #
 
