@@ -42,9 +42,19 @@ Get achievements by running certain commands, using certain apps, or googling ce
 
 ### How to play 🎮
 
-There are three ways you can play the game right now:
+There are two ways you can play the game right now:
 
 #### 1. NodeJS
-Download [NodeJS](https://nodejs.org/en) and run these commands into your terminal:
+Download the code and install [NodeJS](https://nodejs.org/en) (make sure the file is unzipped) and run these commands into your terminal:
+
+<img width="244" height="36" alt="install" src="https://github.com/user-attachments/assets/5edbebf8-4e7a-4c20-90d3-e7d20a3017ab" />
+<img width="234" height="38" alt="build" src="https://github.com/user-attachments/assets/e9ebcc4e-c899-4e49-8c9a-2b5cfe82a64b" />
+<img width="300" height="38" alt="server 2026-09-26 143356" src="https://github.com/user-attachments/assets/18d91e2e-62bb-4a25-927a-e60503861a97" />
+
+#### 2. Use URL
+
+Use this URL (deployed on [Netlify](https://app.netlify.com)):
+
+### REVENGEEXE.NETLIFY.APP
 
 
