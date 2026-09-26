@@ -1,0 +1,6 @@
+{
+  "name": "Revenge.exe",
+  "description": "An intense psychological cyber-thriller game where you confront Revenge.exe and unravel the dark mystery of N3verF0rg3t.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
