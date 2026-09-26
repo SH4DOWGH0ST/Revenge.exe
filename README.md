@@ -1,4 +1,9 @@
 
+<div align="center">
+  <img width="718" height="128" alt="Title" src="https://github.com/user-attachments/assets/fef4b336-ee36-4bb0-bfe7-b12ef7e1cdeb" />
+
+</div>
+
 ---
 
 <div align="center">
@@ -12,6 +17,10 @@ Revenge.exe is an video game about how you got an unknown virus on your computer
 
 > [!CAUTION]
 > Despite being about viruses, hacking, and ransomware, this game does not teach or encourage any illegal content whatover.
+
+> This was coded and deployed on GitHub by Google AI studio
+
+> All storyboarding/lore was created completely without the use of AI.
 
 #
 
@@ -51,10 +60,21 @@ Download the code and install [NodeJS](https://nodejs.org/en) (make sure the fil
 <img width="234" height="38" alt="build" src="https://github.com/user-attachments/assets/e9ebcc4e-c899-4e49-8c9a-2b5cfe82a64b" />
 <img width="300" height="38" alt="server 2026-09-26 143356" src="https://github.com/user-attachments/assets/18d91e2e-62bb-4a25-927a-e60503861a97" />
 
-#### 2. Use URL
+#### 2. Deploy
 
-Use this URL (deployed on [Netlify](https://app.netlify.com)):
+Download the zip and go on [Netlify](https://app.netlify.com) and press "New Project" then drag the ZIP into the "Drag your project files" and press deploy.
 
-### REVENGEEXE.NETLIFY.APP
+
+<div align="center">
+  
+  <img width="2192" height="330" alt="Deploy" src="https://github.com/user-attachments/assets/ded2ada1-619a-49e3-a355-8cf595f87a90" />
+</div>
+
+#
+
+<img width="1768" height="592" alt="Chapter 2" src="https://github.com/user-attachments/assets/d4167025-9b40-497b-bc26-54fbd39d9907" />
+
+
+
 
 
