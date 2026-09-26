@@ -109,6 +109,28 @@ class SoundEffects {
     }
   }
 
+  // Eerie terminal window flash sound
+  playEerieFlash() {
+    try {
+      this.initContext();
+      if (!this.ctx || !this.sfxGain) return;
+      this.playGlitchNoise(0.28);
+      const osc = this.ctx.createOscillator();
+      const gain = this.ctx.createGain();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(85, this.ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(40, this.ctx.currentTime + 0.6);
+      gain.gain.setValueAtTime(0.18, this.ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, this.ctx.currentTime + 0.6);
+      osc.connect(gain);
+      gain.connect(this.sfxGain);
+      osc.start();
+      osc.stop(this.ctx.currentTime + 0.6);
+    } catch {
+      // ignore
+    }
+  }
+
   // Error buzzer
   playError() {
     try {

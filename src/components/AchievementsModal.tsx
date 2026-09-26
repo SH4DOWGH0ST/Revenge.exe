@@ -17,6 +17,7 @@ export const ALL_ACHIEVEMENTS: AchievementItem[] = [
   { id: 'Blue', name: 'Blue' },
   { id: 'README', name: 'README' },
   { id: 'Nope', name: 'Nope' },
+  { id: 'No peace', name: 'No peace' },
   { id: 'The End?', name: 'The End?' },
 ];
 
@@ -40,6 +41,7 @@ export const normalizeAchievementId = (raw: string): string => {
   if (lower.includes('the end')) return 'The End?';
   if (lower.includes('copilot') || lower.includes('copliot')) return 'Time to ask copliot';
   if (lower.includes('nice try') || lower.includes('noce try')) return 'Nice try tho';
+  if (lower.includes('no peace') || lower.includes('peace speech')) return 'No peace';
 
   return trimmed;
 };

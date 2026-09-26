@@ -62,7 +62,25 @@ const LORE_LINKS: { term: string; query: string }[] = [
   { term: '000001', query: 'revenge.exe commands list' },
   { term: '110100', query: 'revenge.exe commands list' },
   { term: 'PAIN', query: 'secret command PAIN' },
-  { term: 'Nick Clark', query: 'Nick Clark N3verF0rg3t' },
+  { term: 'Cyberware Peace Speech', query: 'The Cyberware Peace Speech' },
+  { term: 'Peace Speech', query: 'The Cyberware Peace Speech' },
+  { term: 'hidden talent', query: 'N3verF0rg3t hidden talent' },
+  { term: 'hidden messaging', query: 'N3verF0rg3t hidden talent' },
+  { term: 'replica of google', query: 'N3verF0rg3t hidden talent' },
+  { term: 'replica Google', query: 'N3verF0rg3t hidden talent' },
+  { term: 'Google replica', query: 'N3verF0rg3t hidden talent' },
+  { term: 'chatbot', query: 'N3verF0rg3t hidden talent' },
+  { term: 'secret methods', query: 'N3verF0rg3t hidden talent' },
+  { term: 'be careful on the internet kid', query: 'be careful on the internet kid' },
+  { term: 'Beat us to it', query: 'The Cyberware Peace Speech' },
+  { term: 'TikTok', query: 'N3verF0rg3t tiktok' },
+  { term: 'joke about 9/11', query: 'N3verF0rg3t tiktok' },
+  { term: '9/11 joke', query: 'N3verF0rg3t tiktok' },
+  { term: 'just an joke', query: 'N3verF0rg3t tiktok' },
+  { term: 'just a joke', query: 'N3verF0rg3t tiktok' },
+  { term: 'girlfriend', query: 'N3verF0rg3t tiktok' },
+  { term: 'expelled', query: 'N3verF0rg3t tiktok' },
+  { term: 'weak on the inside', query: 'revenge.exe hacked school' },
   { term: 'NYPD', query: 'N3verF0rg3t NYPD' },
   { term: 'USB drives', query: 'revenge.exe USB attack' },
   { term: 'USB', query: 'revenge.exe USB attack' },
@@ -85,11 +103,23 @@ const LORE_LINKS: { term: string; query: string }[] = [
   { term: 'Twitter', query: 'N3verF0rg3t twitter debunk' },
 ];
 
+const cleanPlainText = (raw: string): string => {
+  if (!raw) return '';
+  return raw
+    .replace(/<\/?(strong|b|em|code|span|div|p|i|u|pre|a)[^>]*>/gi, '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/__(.*?)__/g, '$1')
+    .replace(/`([^`]+)`/g, '$1');
+};
+
 const ClickableLoreText: React.FC<{
   text: string;
   onSearch: (q: string) => void;
   className?: string;
 }> = ({ text, onSearch, className = '' }) => {
+  const sanitizedText = cleanPlainText(text);
+
   // Sort terms by length descending so longer phrases match first
   const sortedTerms = [...LORE_LINKS].sort((a, b) => b.term.length - a.term.length);
 
@@ -104,7 +134,7 @@ const ClickableLoreText: React.FC<{
 
   const regex = new RegExp(`(${termPatterns.join('|')})`, 'gi');
 
-  const parts = text.split(regex);
+  const parts = sanitizedText.split(regex);
 
   return (
     <span className={className}>

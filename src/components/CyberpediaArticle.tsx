@@ -15,7 +15,7 @@ export const CyberpediaArticle: React.FC<CyberpediaArticleProps> = ({
   const lower = topic.toLowerCase();
 
   // Determine which article to render based on topic
-  let articleType: 'n3verf0rg3t' | 'deserteagle' | 'school' | 'location' | 'nickclark' | 'revenge' = 'revenge';
+  let articleType: 'n3verf0rg3t' | 'deserteagle' | 'school' | 'location' | 'peacespeech' | 'revenge' = 'revenge';
 
   if (
     lower.includes('where') ||
@@ -30,12 +30,22 @@ export const CyberpediaArticle: React.FC<CyberpediaArticleProps> = ({
   ) {
     articleType = 'location';
   } else if (
-    lower.includes('nick clark') ||
-    lower.includes('nick clarke') ||
-    lower.includes('clark') ||
-    lower.includes('clarke')
+    lower.includes('peace speech') ||
+    lower.includes('cyberware peace speech') ||
+    lower.includes('cyber peace') ||
+    lower.includes('peace') ||
+    lower.includes('digital safety speech') ||
+    lower.includes('speech') ||
+    lower.includes('tiktok') ||
+    lower.includes('beat us to it') ||
+    lower.includes('be careful on the internet kid') ||
+    lower.includes('girlfriend') ||
+    lower.includes('talent') ||
+    lower.includes('hidden talent') ||
+    lower.includes('replica') ||
+    lower.includes('chatbot')
   ) {
-    articleType = 'nickclark';
+    articleType = 'peacespeech';
   } else if (
     lower.includes('teacher') ||
     lower.includes('techer') ||
@@ -76,6 +86,9 @@ export const CyberpediaArticle: React.FC<CyberpediaArticleProps> = ({
     if (articleType === 'n3verf0rg3t' && !unlockedRef.current.n3verf0rg3t) {
       unlockedRef.current.n3verf0rg3t = true;
       onUnlockAchievement('Who are you?', 'Who are you?');
+    } else if (articleType === 'peacespeech' && !unlockedRef.current.peacespeech) {
+      unlockedRef.current.peacespeech = true;
+      onUnlockAchievement('No peace', 'No peace');
     } else if (articleType === 'school' && !unlockedRef.current.school) {
       unlockedRef.current.school = true;
       onUnlockAchievement('Did I do something?', 'Did I do something?');
@@ -204,40 +217,56 @@ export const CyberpediaArticle: React.FC<CyberpediaArticleProps> = ({
           </div>
         )}
 
-        {/* Nick Clark Controversy Dossier */}
-        {articleType === 'nickclark' && (
+        {/* The Cyberware Peace Speech & Social Media Retaliation Dossier */}
+        {articleType === 'peacespeech' && (
           <div>
             <div className="border-b border-cyan-900/60 pb-3 mb-6">
-              <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-bold">
-                Special Investigation Dossier
+              <span className="text-xs font-mono uppercase tracking-wider text-red-400 font-bold">
+                Special Retaliation Intelligence File
               </span>
               <h1 className="text-2xl sm:text-3xl font-mono font-bold text-white tracking-wide mt-1">
-                The Nick Clark Controversy
+                The Cyberware Peace Speech &amp; Social Retaliations
               </h1>
             </div>
 
             <p className="text-sm leading-relaxed mb-4 text-slate-300">
-              The <strong>Nick Clark Controversy</strong> refers to a publicized dispute in late 2026 involving an individual named Nick Clark who publicly claimed to have established personal contact and met with the creator of Revenge.exe, N3verF0rg3t, in real life.
+              <strong>N3verF0rg3t</strong> harbors an extreme intolerance for insults and public criticism. Cyber intelligence agencies have documented that any public post, video, or speech mocking or denouncing him triggers devastating retaliatory digital campaigns.
             </p>
 
             <h2 className="text-lg font-mono font-bold text-cyan-300 border-b border-slate-800 pb-1 mt-6 mb-3">
-              Public assertions
+              The Cyberware Peace Speech Incident
             </h2>
             <p className="text-sm leading-relaxed mb-4 text-slate-300">
-              Following the cyber crisis where a separate hacking group weaponized Revenge.exe against the NYPD, Nick Clark surfaced on social media platforms claiming that he had personal acquaintanceship with N3verF0rg3t and had visited him in person. The claims generated immediate traction across cyber forums and digital investigative communities eager to unmask the creator.
+              A group of teenagers published a viral TikTok video titled <strong>&quot;The Cyberware Peace Speech&quot;</strong>, advocating for internet safety and condemning malicious digital creators. During the speech, they publicly singled out N3verF0rg3t, heavily insulting him for authoring the Revenge.exe virus.
+            </p>
+            <p className="text-sm leading-relaxed mb-4 text-slate-300">
+              Within hours, N3verF0rg3t compromised their TikTok account, generated fabricated defamatory AI deepfake videos of the teens, and uploaded them directly to their feed. A rival hacker collective later admitted they had originally planned to breach the teens for the speech, but conceded that N3verF0rg3t <em>&quot;Beat us to it.&quot;</em>
             </p>
 
             <h2 className="text-lg font-mono font-bold text-cyan-300 border-b border-slate-800 pb-1 mt-6 mb-3">
-              Public debunk and profile deletion
+              TikTok 9/11 Disrespect &amp; &quot;Be careful on the internet kid&quot;
             </h2>
             <p className="text-sm leading-relaxed mb-4 text-slate-300">
-              Shortly after Clark&apos;s assertions gained viral velocity, N3verF0rg3t broke his self-imposed social silence by posting directly to X (formerly Twitter). The transmission stated plainly and unequivocally:
+              In a separate incident on TikTok, a teenager published a post mocking the September 11 attacks and insulting survivors. Given N3verF0rg3t&apos;s personal survival of the North Tower collapse, he sent an intensely threatening direct message to the teen. The teen flippantly replied:
             </p>
-            <blockquote className="border-l-4 border-red-500 pl-4 py-2 italic my-3 text-red-200 bg-red-950/30 text-sm font-mono">
-              &quot;I have never met Nick Clark. I have zero interaction, association, or contact with this person whatsoever.&quot;
+            <blockquote className="border-l-4 border-amber-500 pl-4 py-2 italic my-3 text-amber-200 bg-amber-950/30 text-sm font-mono">
+              &quot;Yo chill it&apos;s just an joke no one knows who u r anyway like no one likes u&quot;
             </blockquote>
             <p className="text-sm leading-relaxed mb-4 text-slate-300">
-              The post was viewed by over 500,000 users—including Nick Clark himself—before N3verF0rg3t permanently deleted the profile. When subsequently pressed by investigative reporters to provide physical descriptions, communication receipts, or meeting locations, Clark was unable to supply a single shred of corroborating evidence.
+              The following morning, N3verF0rg3t hacked the teenager&apos;s school district, commandeered every classroom display monitor, and broadcast defamatory AI generated videos of the teen and his girlfriend (uncovered through personal data breaches), leading to both students being expelled. He then compromised the accounts and IP addresses of other female classmates to dispatch inappropriate texts under the teen&apos;s identity.
+            </p>
+            <p className="text-sm leading-relaxed mb-4 text-slate-300">
+              Humiliated by the complete ruin of his social life, the teen deleted his TikTok account and quit social media forever. When he later opened his Gmail inbox, he found a final direct email from N3verF0rg3t:
+            </p>
+            <div className="bg-red-950/70 text-red-200 p-3 rounded font-mono text-xs border border-red-600 mb-4">
+              &quot;be careful on the internet kid&quot;
+            </div>
+
+            <h2 className="text-lg font-mono font-bold text-cyan-300 border-b border-slate-800 pb-1 mt-6 mb-3">
+              Hidden Messaging Talent &amp; Replica AI Search Engine
+            </h2>
+            <p className="text-sm leading-relaxed mb-4 text-slate-300">
+              During his remote CNN interview, N3verF0rg3t revealed a hidden talent: designing covert communication channels disguised inside ordinary everyday software. He demonstrated a functional replica of Google where typing in the search bar activates a hidden AI chatbot responder. This tool was engineered to covertly distribute secret methods and guidance for operators running Revenge.exe.
             </p>
           </div>
         )}

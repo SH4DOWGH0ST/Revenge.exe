@@ -10,6 +10,7 @@ import { VirusSymbol } from './components/VirusSymbol';
 import { CopilotWindow } from './components/CopilotWindow';
 import { WindowsSecurityWindow } from './components/WindowsSecurityWindow';
 import { AccessDeniedModal } from './components/AccessDeniedModal';
+import { WindowTerminalGlitchOverlay } from './components/WindowTerminalGlitchOverlay';
 import { sounds } from './utils/audio';
 import { embeddedTerminalAnalyze } from './utils/aiSearch';
 
@@ -52,6 +53,51 @@ export default function App() {
   const [isAccessDeniedOpen, setIsAccessDeniedOpen] = useState(false);
   const [isAchievementsOpen, setIsAchievementsOpen] = useState(false);
   const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);
+  const [windowGlitchPhase, setWindowGlitchPhase] = useState<'idle' | 'icu' | 'hateme'>('idle');
+
+  // Terminal Window Glitch: Every 2-3 mins window flashes into terminal with "I C U" on top right, then 1s later "DO U HATEME"
+  useEffect(() => {
+    if (gameState !== 'terminal-active' && gameState !== 'cinematic-monologue') {
+      setWindowGlitchPhase('idle');
+      return;
+    }
+
+    let flashTimer1: NodeJS.Timeout;
+    let flashTimer2: NodeJS.Timeout;
+    let cycleTimer: NodeJS.Timeout;
+
+    const triggerGlitchSequence = () => {
+      // Phase 1: Flash into terminal with "I C U" in the top right
+      setWindowGlitchPhase('icu');
+      sounds.playEerieFlash();
+
+      // Phase 2: After exactly 1 second, flashes again and displays "DO U HATEME"
+      flashTimer1 = setTimeout(() => {
+        setWindowGlitchPhase('hateme');
+        sounds.playGlitchNoise(0.4);
+
+        // Phase 3: Glitch ends after 1.2s and resets for next 2-3 minutes
+        flashTimer2 = setTimeout(() => {
+          setWindowGlitchPhase('idle');
+          scheduleNextGlitch();
+        }, 1200);
+      }, 1000);
+    };
+
+    const scheduleNextGlitch = () => {
+      // 2-3 minutes = 120,000ms to 180,000ms
+      const delay = 120000 + Math.random() * 60000;
+      cycleTimer = setTimeout(triggerGlitchSequence, delay);
+    };
+
+    scheduleNextGlitch();
+
+    return () => {
+      clearTimeout(flashTimer1);
+      clearTimeout(flashTimer2);
+      clearTimeout(cycleTimer);
+    };
+  }, [gameState]);
 
   // Close all subwindows when returning to the main menu
   useEffect(() => {
@@ -948,6 +994,9 @@ export default function App() {
         name={recentUnlockedToast}
         onDismiss={handleDismissToast}
       />
+
+      {/* 2-3 Minute Window Terminal Glitch Flash Overlay */}
+      <WindowTerminalGlitchOverlay phase={windowGlitchPhase} />
     </div>
   );
 }

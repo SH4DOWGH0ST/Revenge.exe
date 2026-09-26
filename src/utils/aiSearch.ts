@@ -110,9 +110,19 @@ THE CNN INTERVIEW & CONSPIRACIES
 The only interview N3verF0rg3t ever had was with CNN. He was asked “Why did you make the virus” and said “I won’t confirm why I made it, but I called it revenge for a reason…” he then immediately hung up and deleted all information about the call from CNN through hacking (but it was caught on video recording). This has led to many conspiracies about the truth of revenge.exe. Because he was a 9/11 survivor, some suspect that he planned on using it on Al-Qaeda or the Taliban. Some suspect that he even secretly works or is paid by the CIA. N3verF0rg3t made his own account on X (Twitter) 2 days after this and said “I would like to promise you I don’t work for the government, or any third-parties whatsoever”. Shortly after this, he deleted his account but the post was seen by 300 thousand people before being deleted. There is also a conspiracy that N3verF0rg3t lost someone he loved on 9/11 and wanted revenge. But all of these are conspiracies and not confirmed.
 
 ———————————————————
-FAMILY, FRIENDS & NICK CLARK
+HIDDEN TALENT, CNN INTERVIEW & SECRET AI MESSAGING
 ———————————————————
-N3verF0rg3t family and friends are not confirmed. His real name is unidentified so it is impossible to figure out his family and friends and some suspect he changed his surname to make it harder to identify him. N3verF0rg3t has never mentioned his family or friends. A man named Nick Clark said he’s met N3verF0rg3t. However, shortly after this, he went on X and made a post stating he’s never met Nick Clark and doesn’t have any interaction with him. 500,000 people (including Nick) saw this post and then N3verF0rg3t deleted his X account. Nick Clark still says he’s met him in real life but has trouble describing him and has no real proof of visiting him.
+N3verF0rg3t had a hidden talent he announced in his CNN interview: his ability to make hidden ways of messaging. He showed an example of a replica of Google, but when you type in the search bar an AI responds to you (like a chatbot). He did this so if people needed help using his virus, he could give them one of his secret methods and covert instructions.
+
+———————————————————
+SOCIAL MEDIA RETALIATION: SCIENCE TEACHER & THE CYBERWARE PEACE SPEECH
+———————————————————
+N3verF0rg3t doesn't like to be insulted. Even making public posts about him on social media can put you in dangerous threat. Once a science teacher made a post about him calling him weak on Instagram, and he hacked the entire school district for three days until letting the virus go. Also, a group of teens using TikTok made a speech called "The Cyberware Peace Speech" — a public speech saying how we should use the internet safely and not for bad content. They also mentioned how they hated N3verF0rg3t for his virus and publicly insulted him. Later, N3verF0rg3t hacked into the TikTok account, made inappropriate AI generated deepfake videos of the teens, and posted it on the account. Later a rival hacker group admitted that they were originally planning to hack the teens for the digital safety speech, but conceded that N3verF0rg3t "Beat us to it".
+
+———————————————————
+TIKTOK 9/11 DISRESPECT & "BE CAREFUL ON THE INTERNET KID"
+———————————————————
+Once on TikTok a teen made a post about 9/11 insulting the survivors and the event. Because N3verF0rg3t is a 9/11 North Tower survivor, N3verF0rg3t sent an extremely threatening message to the teen. The teen decided to reply with: "Yo chill it's just an joke no one knows who u r anyway like no one likes u". The next day, N3verF0rg3t hacked the school the teen attended and changed all the classroom screens to an inappropriate AI generated video of him and his girlfriend (who he discovered by hacking his personal life records), which led to him and his girlfriend getting expelled. N3verF0rg3t then hacked the accounts and obtained the IP addresses of other girls in the school, sending them inappropriate texts from the teen's identity. Mortified by the embarrassment and destruction of his reputation, the teen deleted his TikTok account and never went on social media again. Later, he checked his Gmail inbox and saw a final direct message from N3verF0rg3t that said: "be careful on the internet kid".
 
 ———————————————————
 PSYCHOLOGICAL STATE & THE TEACHER INCIDENT
@@ -676,7 +686,8 @@ export function getEmbeddedSearchResult(rawQuery: string): SearchResult {
       ],
       relatedQueries: [
         'N3verF0rg3t CNN',
-        'Nick Clark N3verF0rg3t',
+        'N3verF0rg3t hidden talent',
+        'The Cyberware Peace Speech',
         'who is N3verF0rg3t',
         'where he lives',
         'revenge.exe hacked school'
@@ -686,46 +697,168 @@ export function getEmbeddedSearchResult(rawQuery: string): SearchResult {
     };
   }
 
-  // 10. Nick Clark
+  // 10a. CNN Hidden Talent & Replica Google AI Search Engine
   if (
-    norm.includes('nick clark') ||
-    norm.includes('nick clarke') ||
-    norm.includes('clark') ||
-    norm.includes('clarke') ||
-    norm.includes('met in real life') ||
-    norm.includes('met in person') ||
-    norm.includes('met him')
+    norm.includes('talent') ||
+    norm.includes('hidden talent') ||
+    norm.includes('hidden messaging') ||
+    norm.includes('secret messaging') ||
+    norm.includes('messaging') ||
+    norm.includes('google replica') ||
+    norm.includes('replica of google') ||
+    norm.includes('replica google') ||
+    norm.includes('chatbot') ||
+    norm.includes('chat bot') ||
+    norm.includes('secret methods') ||
+    norm.includes('help using his virus') ||
+    norm.includes('help using virus')
   ) {
     return {
       related: true,
       query: rawQuery,
-      heading: 'Nick Clark In-Person Claim Debunk',
+      heading: 'N3verF0rg3t Hidden Messaging Talent & Replica AI Search Engine',
       summary:
-        'A civilian named Nick Clark gained internet notoriety after publicly claiming to have met N3verF0rg3t face-to-face in real life. In response to skyrocketing speculation, N3verF0rg3t posted a definitive public bulletin on X viewed by over 500,000 users categorically denying that he had ever met, spoken to, or interacted with Nick Clark in any capacity. N3verF0rg3t promptly deleted the account. Clark has produced zero corroborating proof or forensic verification.',
+        'During his remote CNN interview, N3verF0rg3t announced a hidden talent: his ability to construct covert, undetectable communication networks disguised as ordinary everyday software. As a live demonstration, he revealed a functional replica of the Google search engine where typing into the search bar activates a hidden interactive AI chatbot that responds to user queries. He engineered this covert AI search system so that individuals who needed assistance or guidance using his Revenge.exe virus could receive his secret operational methods and instructions under the guise of an ordinary search session.',
       details: [
-        'Claim: Nick Clark claimed to have personal knowledge and an in-person meeting with N3verF0rg3t.',
-        'Public Denial: N3verF0rg3t published a verified post to 500,000 users refuting every aspect of Clark\'s claim.',
-        'Forensic Standing: Discredited by digital investigators as an unverified hoax.',
-        'Current Status: Completely debunked.'
+        'CNN Interview Announcement: Announced his specialty in designing covert communication channels embedded inside familiar platforms.',
+        'Replica Google Interface: Built a full replica of Google where the search bar secretly connects to an AI chatbot engine.',
+        'Covert Virus Assistance: Designed to covertly distribute secret exploitation methods and assist users running Revenge.exe.',
+        'System Connection: This hidden architecture explains the AI Overview search engine operating within the desktop interface.'
       ],
       keyFacts: [
-        { label: 'Claimant', value: 'Nick Clark' },
-        { label: 'Status', value: 'Disproven & Debunked' },
-        { label: 'N3verF0rg3t Viewership', value: '500,000 on X' },
-        { label: 'Evidence Submitted', value: 'None' }
+        { label: 'Hidden Talent', value: 'Covert AI Messaging Architecture' },
+        { label: 'Demonstration Tool', value: 'Replica Google with AI Chatbot' },
+        { label: 'Primary Purpose', value: 'Covert Virus Methods & Assistance' },
+        { label: 'Public Reveal', value: 'CNN Remote Broadcast' }
       ],
       sources: [
-        { title: 'CyberSec Fact Check: The Nick Clark Hoax', site: 'cybersecnews.org' },
-        { title: 'Archived Social Post: Public Refutation on X', site: 'x.com' }
+        { title: 'CNN Tech Special: The Hidden AI Architecture of N3verF0rg3t', site: 'cnn.com' },
+        { title: 'Cyber Threat Analysis: Covert Search Engine Chatbot Vectors', site: 'cybersecnews.org' }
       ],
       relatedQueries: [
-        'N3verF0rg3t twitter debunk',
-        'where he lives',
+        'The Cyberware Peace Speech',
+        'N3verF0rg3t CNN',
         'who is N3verF0rg3t',
-        'N3verF0rg3t CNN'
+        'revenge.exe github',
+        '9/11 TikTok teen hack'
       ],
-      title: 'Investigation: The Nick Clark In-Person Claim Debunk',
-      snippet: 'Nick Clark claimed he met N3verF0rg3t in real life. N3verF0rg3t publicly debunked this on X to 500,000 users.',
+      title: 'Investigation: N3verF0rg3t Hidden Messaging Talent & Covert AI Search Tool',
+      snippet: 'N3verF0rg3t revealed on CNN his ability to make hidden messaging systems, showing a replica Google where typing in the search bar activates an AI chatbot to give secret virus methods.',
+    };
+  }
+
+  // 10b. The Cyberware Peace Speech & Social Media Insults Retaliation -> Unlocks "No peace"
+  if (
+    norm.includes('peace speech') ||
+    norm.includes('cyberware peace speech') ||
+    norm.includes('cyber peace speech') ||
+    norm.includes('peace') ||
+    norm.includes('digital safety speech') ||
+    norm.includes('speech') ||
+    norm.includes('beat us to it') ||
+    norm.includes('tiktok speech') ||
+    norm.includes('insulted him') ||
+    norm.includes('insult') ||
+    norm.includes('insults') ||
+    norm.includes('social media post') ||
+    norm.includes('dangerous threat')
+  ) {
+    return {
+      related: true,
+      query: rawQuery,
+      heading: 'The Cyberware Peace Speech & Social Media Retaliation Incidents',
+      summary:
+        'N3verF0rg3t possesses an extreme intolerance for insults and public condemnation, and making public posts criticizing him places individuals under severe danger. When a high school science teacher called him "weak on the inside", he locked her entire school district for three days. Later on TikTok, a group of teenagers published "The Cyberware Peace Speech" — a widely shared public speech promoting internet safety and condemning cyber violence, which explicitly singled out N3verF0rg3t and insulted him for creating Revenge.exe. In swift retaliation, N3verF0rg3t hijacked the teens\' TikTok account and posted fabricated, defamatory AI generated deepfake videos of them. A rival hacker group later publicly admitted they were preparing to hack the teens for the speech, but conceded that N3verF0rg3t "Beat us to it".',
+      details: [
+        'Insult Intolerance: Threatens and executes severe cyber attacks against anyone publicly mocking or criticizing him.',
+        'The Cyberware Peace Speech: A public speech by teenagers advocating digital safety and directly insulting N3verF0rg3t.',
+        'Account Hijacking: Infiltrated the teens\' TikTok account and published unauthorized, defamatory AI generated deepfake videos.',
+        'Rival Group Admission: A separate hacking group confessed they planned to target the teens, but admitted N3verF0rg3t "Beat us to it".',
+        'Achievement Connection: Triggers the "No peace" achievement.'
+      ],
+      keyFacts: [
+        { label: 'Event', value: 'The Cyberware Peace Speech Hack' },
+        { label: 'Platform', value: 'TikTok' },
+        { label: 'Retaliation Tactic', value: 'Account Takeover & Defamatory AI Video Leak' },
+        { label: 'Rival Group Statement', value: '"Beat us to it"' },
+        { label: 'Achievement', value: 'No peace' }
+      ],
+      sources: [
+        { title: 'Viral Incident Report: The Cyberware Peace Speech Breach', site: 'cybersecnews.org' },
+        { title: 'Social Platform Incident Telemetry: TikTok Account Takeover', site: 'tiktok.com/news' }
+      ],
+      relatedQueries: [
+        '9/11 TikTok teen hack',
+        'revenge.exe hacked school',
+        'N3verF0rg3t hidden talent',
+        'who is N3verF0rg3t',
+        'the command to stop the virus'
+      ],
+      achievementUnlocked: 'No peace',
+      title: 'Special Report: The Cyberware Peace Speech Hack & Retaliation by N3verF0rg3t',
+      snippet: 'Teens gave "The Cyberware Peace Speech" insulting N3verF0rg3t on TikTok. He hacked their account and posted defamatory AI videos of them. A rival group said he "Beat us to it".',
+    };
+  }
+
+  // 10c. TikTok 9/11 Disrespect / Joke & "be careful on the internet kid"
+  if (
+    norm.includes('tiktok') ||
+    norm.includes('tik tok') ||
+    norm.includes('joke') ||
+    norm.includes('jokes') ||
+    norm.includes('9 11 joke') ||
+    norm.includes('joke about 9 11') ||
+    norm.includes('be careful on the internet kid') ||
+    norm.includes('careful on the internet') ||
+    norm.includes('9 11 post') ||
+    norm.includes('9 11 tiktok') ||
+    norm.includes('tiktok teen') ||
+    norm.includes('insulting survivors') ||
+    norm.includes('survivor joke') ||
+    norm.includes('just an joke') ||
+    norm.includes('just a joke') ||
+    norm.includes('no one likes u') ||
+    norm.includes('no one knows who u r') ||
+    norm.includes('girlfriend') ||
+    norm.includes('school screens') ||
+    norm.includes('all the screens') ||
+    norm.includes('texts to other girls') ||
+    norm.includes('expelled') ||
+    norm.includes('gmail message')
+  ) {
+    return {
+      related: true,
+      query: rawQuery,
+      heading: 'TikTok 9/11 Disrespect Retaliation & School Broadcast Incident',
+      summary:
+        'A teenager posted a video on TikTok making a disrespectful joke about 9/11 and insulting the survivors and the victims of the tragedy. Because N3verF0rg3t is an eyewitness survivor of the World Trade Center North Tower, N3verF0rg3t sent a direct, severely threatening message to the teenager. The teen dismissively replied: "Yo chill it\'s just an joke no one knows who u r anyway like no one likes u". The following morning, N3verF0rg3t hacked the teenager\'s school and hijacked every classroom monitor, broadcasting defamatory AI generated videos of the teen and his girlfriend (uncovered by hacking his personal files), causing both students to be expelled. N3verF0rg3t then compromised the personal accounts and IP addresses of other girls at the school, dispatching inappropriate messages under the teen\'s identity. Humiliated and socially destroyed, the teen deleted his TikTok and left social media forever. When he subsequently checked his Gmail, he found a final message from N3verF0rg3t stating: "be careful on the internet kid".',
+      details: [
+        'Trigger Incident: TikTok video making a joke about 9/11 and mocking survivors, provoking North Tower survivor N3verF0rg3t.',
+        'Teen Response: Flippantly dismissed threats with "Yo chill it\'s just an joke no one knows who u r anyway like no one likes u".',
+        'School Hijack: Broadcast defamatory AI generated video across all school monitors, leading to the teen and his girlfriend being expelled.',
+        'Identity Spoofing: Hacked schoolmates\' accounts and IPs to send defamatory messages in the teen\'s name.',
+        'Final Warning: Direct email received in Gmail: "be careful on the internet kid".'
+      ],
+      keyFacts: [
+        { label: 'Origin', value: 'TikTok 9/11 Disrespect Joke Video' },
+        { label: 'Dismissal', value: '"Yo chill it\'s just an joke..."' },
+        { label: 'Retaliation Scale', value: 'Schoolwide Screen Takeover & Expulsion' },
+        { label: 'Final Email', value: '"be careful on the internet kid"' }
+      ],
+      sources: [
+        { title: 'School Cyber Breach & Defamation Broadcast Investigation', site: 'courtrecords.gov' },
+        { title: 'Cyber Threat Analysis: Digital Retaliation Vectors', site: 'cybersecnews.org' }
+      ],
+      relatedQueries: [
+        'The Cyberware Peace Speech',
+        'revenge.exe hacked school',
+        'N3verF0rg3t 9/11 North Tower',
+        'N3verF0rg3t hidden talent',
+        'who is N3verF0rg3t',
+        'the command to stop the virus'
+      ],
+      title: 'Case Telemetry: TikTok 9/11 Disrespect Retaliation & "Be Careful On The Internet Kid"',
+      snippet: 'A teen insulted 9/11 survivors on TikTok and dismissed N3verF0rg3t. N3verF0rg3t hacked his school screens with defamatory AI videos and emailed him: "be careful on the internet kid".',
     };
   }
 
@@ -1176,6 +1309,24 @@ If NOT related, return: {"related":false,"error":"An error has occurred"}`;
         if (rawText) {
           const parsed = JSON.parse(rawText);
           parsed.query = cleanQuery;
+          if (typeof parsed.summary === 'string') {
+            parsed.summary = parsed.summary
+              .replace(/<\/?(strong|b|em|code|span|div|p|i|u|pre|a)[^>]*>/gi, '')
+              .replace(/<[^>]+>/g, '')
+              .replace(/\*\*(.*?)\*\*/g, '$1')
+              .replace(/`(.*?)`/g, '$1');
+          }
+          if (Array.isArray(parsed.details)) {
+            parsed.details = parsed.details.map((d: unknown) =>
+              typeof d === 'string'
+                ? d
+                    .replace(/<\/?(strong|b|em|code|span|div|p|i|u|pre|a)[^>]*>/gi, '')
+                    .replace(/<[^>]+>/g, '')
+                    .replace(/\*\*(.*?)\*\*/g, '$1')
+                    .replace(/`(.*?)`/g, '$1')
+                : d
+            );
+          }
           return parsed;
         }
       }
