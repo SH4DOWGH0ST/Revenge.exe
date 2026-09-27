@@ -49,25 +49,6 @@ Get achievements by running certain commands, using certain apps, or googling ce
 
 #
 
-### How to play 🎮
-
-There are two ways you can play the game right now:
-
-#### 1. NodeJS
-Download the code and install [NodeJS](https://nodejs.org/en) and type cd and drag the file to the terminal (make sure the file is unzipped) and run these commands into your terminal:
-
-```bash
-npm install
-npm run dev  
-npm start     
-```
-
-
-#### 2. Deploy
-
-Download the zip and go on [Netlify](https://app.netlify.com) and press "New Project" then drag the ZIP into the "Drag your project files" and press deploy.
-
-
 <div align="center">
   
   <img width="2192" height="330" alt="Deploy" src="https://github.com/user-attachments/assets/ded2ada1-619a-49e3-a355-8cf595f87a90" />
