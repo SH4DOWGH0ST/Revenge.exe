@@ -49,13 +49,6 @@ Get achievements by running certain commands, using certain apps, or googling ce
 
 #
 
-<div align="center">
-  
-  <img width="2192" height="330" alt="Deploy" src="https://github.com/user-attachments/assets/ded2ada1-619a-49e3-a355-8cf595f87a90" />
-</div>
-
-#
-
 <img width="1768" height="592" alt="Chapter 2" src="https://github.com/user-attachments/assets/d4167025-9b40-497b-bc26-54fbd39d9907" />
 
 
